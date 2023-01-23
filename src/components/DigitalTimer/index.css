@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.dt-head {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.dt-container {
+  display: flex;
+  justify-content: space-between;
+}
+.timer-container {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+.timer-options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 50%;
+}
+.timer-running-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  width: 150px;
+  height: 150px;
+}
+.start-reset-container {
+  display: flex;
+  justify-content: center;
+}
+.icon-btn {
+  border: 0px;
+  background-color: transparent;
+}
+.icon-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.icon-text {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.set-timer-description {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.inc-dec-time-container {
+  display: flex;
+  align-items: center;
+}
+.inc-button {
+  border: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.number-btn {
+  border: 0px;
+  border-radius: 12px;
+  background-color: #00d9f5;
+  color: #0f172a;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.timer {
+  color: #00d9f5;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.time-status {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
